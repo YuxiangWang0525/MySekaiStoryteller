@@ -20,7 +20,7 @@
     "format": "prettier --write .",
     "lint": "eslint --cache .",
     "typecheck": "tsc --noEmit",
-    "test:story-reducer": "node scripts/test-story-reducer.mjs",
+    "test": "vitest run src/story/__tests__/storyReducer.test.ts",
     "android:init": "tauri android init",
     "android:dev": "tauri android dev",
     "android:build": "tauri android build"
@@ -76,7 +76,8 @@
     "tw-animate-css": "^1.3.8",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.59.0",
-    "vite": "^8.0.10"
+    "vite": "^8.0.10",
+    "vitest": "^5.0.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
