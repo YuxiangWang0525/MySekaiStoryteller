@@ -49,8 +49,7 @@ pnpm tauri dev
 Common checks:
 
 ```bash
-pnpm typecheck
-pnpm lint
+pnpm test
 pnpm build
 cd src-tauri && cargo check
 ```

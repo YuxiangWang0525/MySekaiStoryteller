@@ -20,7 +20,7 @@
     "format": "prettier --write .",
     "lint": "eslint --cache .",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run src/story/__tests__/storyReducer.test.ts",
+    "test": "tsc --noEmit && vitest run src/story/__tests__/storyReducer.test.ts",
     "android:init": "tauri android init",
     "android:dev": "tauri android dev",
     "android:build": "tauri android build"
